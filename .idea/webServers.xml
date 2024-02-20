@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3a4ab372-697a-410e-a95f-7c2e3ae960ed" name="jtti-HK1">
+        <fileTransfer accessType="SFTP" host="38.47.221.16" port="23" sshConfigId="bcd28c6f-9578-4120-80eb-c8f10d7ec886" sshConfig="jtti-HK1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="356a8ced-2736-4940-a863-0656bcae906a" name="腾讯GZ1">
+        <fileTransfer accessType="SFTP" host="1.12.56.78" port="2203" sshConfigId="118fabe3-e1b6-40f3-b80f-80addd97eb9c" sshConfig="TX-GZ1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="38a6270f-6bb3-4397-bcde-53f336c18003" name="TC-GZ1-tb proxy">
+        <fileTransfer accessType="SFTP" host="1.12.56.78" port="2203" sshConfigId="118fabe3-e1b6-40f3-b80f-80addd97eb9c" sshConfig="TX-GZ1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

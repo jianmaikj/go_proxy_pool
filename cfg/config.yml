@@ -1,0 +1,41 @@
+#使用代理去获取代理IP
+systemProxy:
+  host: 127.0.0.1
+  port: 10809
+
+#配置信息
+app:
+  #监听IP
+  ip: 0.0.0.0
+  #webApi监听端口
+  port: 5081
+  #  #http隧道代理端口
+  #  httpTunnelPort: 8111
+  #  #socket隧道代理端口
+  #  socketTunnelPort: 8112
+  #  #隧道代理更换时间秒
+  #  tunnelTime: 60
+  #可用IP数量小于‘proxyNum’时就去抓取
+
+task:
+  proxyNum: 100
+  #代理IP验证间隔秒
+
+  threadNum: 200
+  # 定时抓取周期，单位秒
+  getProxiesTimed: 1
+
+  verifyTime: 1800
+  #抓取/检测状态线程数
+
+  verifyUrl: https://g.alicdn.com/
+
+rdb:
+  #redis地址
+  host: localhost
+  #redis端口
+  port: 6379
+  #redis密码
+  password:
+  #redis数据库
+  database: 0
